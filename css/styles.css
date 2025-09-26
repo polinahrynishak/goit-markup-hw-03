@@ -76,20 +76,18 @@ button:active {
 .page-header-container {
   display: flex;
   flex-direction: row;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .main-nav {
   display: flex;
   flex-direction: row;
-  gap: 76px;
   margin-right: auto;
+  align-items: center;
 }
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .site-logo {
@@ -100,6 +98,7 @@ button:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .accent-logo-header {
@@ -126,7 +125,7 @@ button:active {
 
 .address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 /* ============ PAGE HEADER STYLES ============ */
 
