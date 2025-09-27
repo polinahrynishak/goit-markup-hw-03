@@ -55,38 +55,44 @@ button:active {
   background-color: #404bbf;
 }
 
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+.section {
+  padding: 120px 0;
 }
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.body {
+  margin-inline: auto;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1160px;
 }
 
 /* ============ PAGE HEADER STYLES ============ */
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 15px;
 }
 
 .page-header-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-nav {
   display: flex;
-  flex-direction: row;
-  margin-right: auto;
+  /* margin-right: auto; */
   align-items: center;
+  justify-content: center;
+  gap: 75px;
 }
 
 .menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 
@@ -98,7 +104,6 @@ button:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 .accent-logo-header {
@@ -113,8 +118,8 @@ button:active {
 }
 
 .menu-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .address {
@@ -310,9 +315,7 @@ button:active {
 /* ============ FOOTER STYLES /* ============ */
 
 .footer {
-  padding-right: 10px;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .site-logo {
@@ -324,8 +327,8 @@ button:active {
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
-  margin-bottom: 16px;
   align-items: center;
+  justify-content: center;
 }
 
 .accent-logo-footer {
@@ -340,7 +343,13 @@ button:active {
 }
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
+}
+
+.footer-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .accent-logo-header {
