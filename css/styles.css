@@ -318,6 +318,7 @@ button:active {
 /* ============ FOOTER STYLES /* ============ */
 
 .footer {
+  background-color: #2e2f42;
   padding: 100px 0;
 }
 
@@ -329,9 +330,8 @@ button:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .accent-logo-footer {
@@ -343,16 +343,6 @@ button:active {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
-
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer-cont {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 .accent-logo-header {
