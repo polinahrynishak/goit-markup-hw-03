@@ -136,6 +136,7 @@ button:active {
   background: #2e2f42;
   display: flex;
   justify-content: center;
+  padding: 188px 0;
 }
 
 .site-title {
@@ -146,6 +147,8 @@ button:active {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -160,10 +163,10 @@ button:active {
   background: #4d5ae5;
   box-shadow: 0, 0, 0, 0.15;
   margin: 48px auto;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
-  border-width: 0;
+  border: none;
 }
 /* ============ HERO SECTION STYLES ============ */
 
