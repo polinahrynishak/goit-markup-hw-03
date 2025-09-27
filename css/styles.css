@@ -59,13 +59,10 @@ button:active {
   padding: 120px 0;
 }
 
-.body {
-  margin-inline: auto;
-}
-
 .container {
-  padding: 0 15px;
-  max-width: 1160px;
+  padding: 0 15px 0 15px;
+  width: 1158px;
+  margin: 0 auto;
 }
 
 /* ============ PAGE HEADER STYLES ============ */
@@ -83,17 +80,8 @@ button:active {
 
 .main-nav {
   display: flex;
-  /* margin-right: auto; */
   align-items: center;
   justify-content: center;
-  gap: 75px;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
 }
 
 .site-logo {
@@ -104,10 +92,18 @@ button:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .accent-logo-header {
   color: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .menu-item {
